@@ -1,0 +1,179 @@
+/* buttons */
+button[type=button]:not(.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-reply):not(.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-moreButton):not(.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight),
+#change_actions button,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase select {
+  background-color: #fff;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight {
+  background-color: #4d90fe;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+/* popupContent */
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-replyBox {
+  box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.3);
+  background-color: #f5f5f5;
+}
+
+/* body */
+.gerritBody {
+  padding: 0 20px;
+}
+.gerritTopMenu {
+  padding: 5px 20px 0 15px;
+}
+
+/* top header */
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine {
+  margin: 10px 0 15px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+  padding: 6px 15px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-subjectLine {
+  background: transparent;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-statusRight {
+  top: 7px;
+  right: 8px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoLine {
+  top: 5px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button {
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+/* commit */
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-scroll {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  border: 1px solid #eee;
+}
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-header {
+  margin: 15px 10px 0 10px;
+}
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-header th {
+  padding: 3px;
+  font-weight: bold;
+}
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-header td {
+  padding: 3px;
+}
+
+/* change info */
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn table {
+  border: 1px solid #eee;
+  border-bottom: none;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn th {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-top: 1px solid #fff;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn td {
+  padding: 4px 10px;
+  border-top: 1px solid #fff;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn hr {
+  display:none;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_user {
+  background: #fff;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  padding: 2px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_user
+img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar {
+  margin-right: 3px;
+  border-radius: 5px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_user button {
+  margin: 0 3px 0 4px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-labels {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 2px;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_ok {
+  color: #44ae44;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn #change_actions {
+  padding-bottom: 7px;
+}
+
+/* related changes */
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-row {
+  padding: 6px 0;
+  line-height: 1;
+}
+
+
+/* sect header */
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
+  margin: 20px 0 10px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+  padding: 8px 15px;
+  font-size: 150%;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
+  top: 4px;
+  padding-top: 0 0 0 20px;
+  border: none;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase {
+  font-size: 50%;
+  vertical-align: baseline;
+  margin-left: 10px;
+}
+
+/* files */
+.com-google-gerrit-client-change-FileTable-FileTableCss-table th {
+  padding: 2px 4px;
+}
+.com-google-gerrit-client-change-FileTable-FileTableCss-table td {
+  padding: 2px 4px;
+  border-bottom: 1px solid #eee;
+  line-height: 18px;
+}
+.changeTable .com-google-gerrit-client-change-FileTable-FileTableCss-nohover td {
+  border: none;
+}
+
+/* history */
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-contents {
+  margin-left: 38px;
+  padding: 5px 0;  
+}
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-summary {
+  width: 850px;
+}
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar,
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-summary,
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-date {
+  top: 6px;
+}
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar {
+  left: 5px;
+  border-radius: 5px;
+}
+
+/* footer */
+#gerrit_btmmenu {
+  display: none;
+}
