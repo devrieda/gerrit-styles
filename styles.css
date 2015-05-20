@@ -13,6 +13,9 @@ button[type=button]:not(.com-google-gerrit-client-change-Message_BinderImpl_GenC
   border-radius: 5px;
   padding: 4px 8px;
 }
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button[type=button] {
+  border: 1px solid #ddd;
+}
 
 /* popupContent */
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-replyBox {
@@ -109,7 +112,7 @@ img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar 
   margin-left: 2px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_ok {
-  color: #44ae44;
+  color: #090;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn #change_actions {
   padding-bottom: 7px;
