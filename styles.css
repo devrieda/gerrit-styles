@@ -185,6 +185,13 @@ img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar 
   left: 5px !important;
   border-radius: 5px !important;
 }
+.com-google-gerrit-client-change-LineComment_BinderImpl_GenCss_style-box {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.com-google-gerrit-client-change-LineComment_BinderImpl_GenCss_style-location {
+  top: 5px;
+}
 
 /* footer */
 #gerrit_btmmenu {
