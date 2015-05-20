@@ -77,13 +77,13 @@ button[type=button]:not(.com-google-gerrit-client-change-Message_BinderImpl_GenC
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn th {
   font-weight: bold;
-  padding: 4px 10px;
+  padding: 3px 10px;
   border-top: 1px solid #fff;
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn td {
-  padding: 4px 10px;
+  padding: 3px 10px;
   border-top: 1px solid #fff;
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
@@ -111,6 +111,11 @@ img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar 
   margin-top: 15px;
   margin-left: 2px;
 }
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-labels th,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-labels td {
+  padding: 2px 10px;
+}
+
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_ok {
   color: #090;
 }
