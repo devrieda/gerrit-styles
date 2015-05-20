@@ -9,6 +9,18 @@ button[type=button],
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button[type=button] {
   border: 1px solid #ddd !important;
 }
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine button,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader button,
+.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd,
+.com-google-gerrit-client-change-Resources-Style-button .com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd,
+#change_actions button {
+  background-color: #fff !important;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine button.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight,
+#change_actions button.com-google-gerrit-client-change-Actions_BinderImpl_GenCss_style-submit {
+  background-color: #4d90fe !important;
+}
+
 
 /* popupContent */
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-replyBox {
