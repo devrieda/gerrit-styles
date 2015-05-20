@@ -2,11 +2,14 @@
 button[type=button]:not(.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-reply):not(.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-moreButton):not(.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight),
 #change_actions button,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase select {
+  background-color: #fff;
   border-width: 1px !important;
   border-radius: 5px !important;
   padding: 4px 8px !important;
 }
-.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight {
+button[type=button].com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-highlight,
+button[type=button].com-google-gerrit-client-change-Actions_BinderImpl_GenCss_style-submit,
+.com-google-gerrit-client-change-Resources-Style-section button[type=button].com-google-gerrit-client-change-Resources-Style-button {
   background-color: #4d90fe !important;
   border: 1px solid !important;
   border-radius: 5px !important;
