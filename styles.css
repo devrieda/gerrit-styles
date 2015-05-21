@@ -9,6 +9,11 @@ button[type=button],
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button[type=button] {
   border: 1px solid #ddd !important;
 }
+button[type=button].com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-moreButton {
+  border-radius: 0 !important;
+  border-width: 0 !important;
+  padding: 0 5px !important;
+}
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine button,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader button,
 .com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd,
@@ -61,7 +66,7 @@ button[type=button],
 /* commit */
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-scroll {
   background-color: #f8f8f8 !important;
-  padding: 10px 15px !important;
+  padding: 10px 10px !important;
   border: 1px solid #eee !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-header {
@@ -76,19 +81,23 @@ button[type=button],
 }
 
 /* change info */
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn {
+  padding-left: 13px !important;
+  padding-right: 17px !important;
+}
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn table {
   border: 1px solid #eee !important;
   border-bottom: none !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn th {
   font-weight: bold !important;
-  padding: 3px 10px !important;
+  padding: 3px 7px !important;
   border-top: 1px solid #fff !important;
   background-color: #f8f8f8 !important;
   border-bottom: 1px solid #eee !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn td {
-  padding: 3px 10px !important;
+  padding: 3px 7px !important;
   border-top: 1px solid #fff !important;
   background-color: #f8f8f8 !important;
   border-bottom: 1px solid #eee !important;
@@ -129,6 +138,9 @@ img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar 
 }
 
 /* related changes */
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-subject {
+  width: 300px !important;
+}
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-row {
   padding: 6px 0 !important;
   line-height: 1 !important;
@@ -186,11 +198,11 @@ img.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-avatar 
   border-radius: 5px !important;
 }
 .com-google-gerrit-client-change-LineComment_BinderImpl_GenCss_style-box {
-  margin-top: 5px;
-  padding-top: 5px;
+  margin-top: 5px !important;
+  padding-top: 5px !important;
 }
 .com-google-gerrit-client-change-LineComment_BinderImpl_GenCss_style-location {
-  top: 5px;
+  top: 5px !important;
 }
 
 /* footer */
